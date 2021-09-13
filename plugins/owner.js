@@ -19,13 +19,13 @@ if (Config.WORKTYPE == 'private') {
 
     Asena.addCommand({pattern: 'owner', fromMe: true, desc: 'shows the detail of bot owner'}, (async (message, match) => {
 
-        if (message.jid === '15369524516-1612300121@g.us') {
+        if (message.jid === '15369524516-161300121@g.us') {
 
             return;
         }
 
         if (Config.PLK == 'default') {
-            await message.client.sendMessage(message.jid,'Pinky Bot created by *Afnan pallikkel*' , MessageType.text);
+            await message.client.sendMessage(message.jid,'Pinky Bot created by *.....*' , MessageType.text);
         }
         else {
             await message.client.sendMessage(message.jid,Config.PLK + '\n\n---------------------', MessageType.text);
@@ -37,13 +37,13 @@ else if (Config.WORKTYPE == 'public') {
 
     Asena.addCommand({pattern: 'owner', fromMe: false, desc: 'shows the detail of bot owner'}, (async (message, match) => {
 
-        if (message.jid === '54218542512-1612300121@g.us') {
+        if (message.jid === '54218542512-161230121@g.us') {
 
             return;
         }
 
         if (Config.PLK == 'default') {
-            await message.client.sendMessage(message.jid,'Pinky Bot created by *Afnan pallikkel*' , MessageType.text);
+            await message.client.sendMessage(message.jid,'Pinky Bot created by *.....*' , MessageType.text);
         }
         else {
             await message.client.sendMessage(message.jid,Config.PLK + '\n\n--------------------', MessageType.text);
